@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ed7a92d0-21e6-4fdc-b311-5f31e0a4bdbf}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{8e737ee3-70b8-401a-9e10-5b02544aaf00}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{47d3bc41-64fa-46e4-9b09-5c15dc56c20a}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{da1b7df2-5f78-4a59-bcb2-9b6e58eba9a8}">
+                        <labels>
+                          <label description="Staff Name" languagecode="1033" />
+                        </labels>
+                        <control id="kfklaihk_staffname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="kfklaihk_staffname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e457c2eb-2ba1-4f8f-8f6c-489bfdbbd627}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58001a04-36cd-437d-bf72-ecf6d17df801}">
+                        <labels>
+                          <label description="Staff Member" languagecode="1033" />
+                        </labels>
+                        <control id="kfklaihk_staffmember" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="kfklaihk_staffmember" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{21bd3edf-eb03-42dc-89d1-ea273947d095}">
+                        <labels>
+                          <label description="Manager" languagecode="1033" />
+                        </labels>
+                        <control id="kfklaihk_manager" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="kfklaihk_manager" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

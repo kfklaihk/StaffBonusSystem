@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.26013.147" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.26013.147" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.26013.00147">
+  <SolutionManifest>
+    <UniqueName>StaffBonusSystem</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Staff Bonus System" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>kfklaihk</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Kevin Lai" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>kfklaihk</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>77271</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="kfklaihk_contribution" behavior="0" />
+      <RootComponent type="1" schemaName="kfklaihk_contributiontype" behavior="0" />
+      <RootComponent type="1" schemaName="kfklaihk_staffprofile" behavior="0" />
+      <RootComponent type="1" schemaName="systemuser" behavior="1" />
+      <RootComponent type="20" id="{34eb144f-fd04-f111-8407-7ced8dfee0fb}" behavior="0" />
+      <RootComponent type="20" id="{95c98018-d805-f111-8407-7ced8dfee0fb}" behavior="0" />
+      <RootComponent type="20" id="{96a72d22-fa04-f111-8407-7ced8dfee0fb}" behavior="0" />
+      <RootComponent type="60" id="{3ddd6e8e-6306-f111-8407-7ced8dfee0fb}" />
+      <RootComponent type="60" id="{9db00418-a506-f111-8407-7ced8dfee0fb}" behavior="0" />
+      <RootComponent type="62" schemaName="kfklaihk_StaffBonusSystem" behavior="0" />
+      <RootComponent type="70" id="{8c9e45a5-8906-f111-8407-7ced8dfee0fb}" behavior="0" />
+      <RootComponent type="80" schemaName="kfklaihk_StaffBonusSystem" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="systemuser" displayName="SystemUser" parentSchemaName="" solution="msdyn_PowerAdminSettingsEmail (1.1.1.2945)" />
+        <Dependent type="1" schemaName="systemuser" displayName="SystemUser" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="kfklaihk_StaffBonusSystem" displayName="Staff Bonus System" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="70" displayName="Staff" solution="Active" id="{7eaaa696-8f06-f111-8407-7ced8dfee0fb}" />
+        <Dependent type="70" displayName="Staff" id="{7eaaa696-8f06-f111-8407-7ced8dfee0fb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="70" displayName="Contribution Type Profile" solution="Active" id="{d5b1f95d-9106-f111-8407-7ced8dfee0fb}" />
+        <Dependent type="70" displayName="Contribution Type Profile" id="{d5b1f95d-9106-f111-8407-7ced8dfee0fb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.15)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.25">PowerAppsAppFramework_Anchor (1.0.0.25)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=kfklaihk_StaffBonusSystem,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="kfklaihk_StaffBonusSystem" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="appcopilotenabled" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025122.251208047)" id.uniquename="appcopilotenabled">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.0.2">msdyn_M365CopilotAppInfraSettings (9.2.0.2)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=kfklaihk_StaffBonusSystem,settingdefinitionid.uniquename=appcopilotenabled" id.parentappmoduleid.uniquename="kfklaihk_StaffBonusSystem" id.settingdefinitionid.uniquename="appcopilotenabled" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="m365copilotmodelappenabled" solution="msdyn_M365CopilotAppInfraSettings (9.2.0.2)" id.uniquename="m365copilotmodelappenabled">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.0.2">msdyn_M365CopilotAppInfraSettings (9.2.0.2)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=kfklaihk_StaffBonusSystem,settingdefinitionid.uniquename=m365copilotmodelappenabled" id.parentappmoduleid.uniquename="kfklaihk_StaffBonusSystem" id.settingdefinitionid.uniquename="m365copilotmodelappenabled" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

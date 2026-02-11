@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2ecc74ff-d788-42a2-9480-379169c3e6bd}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="kfklaihk_contributiontitle" select="1" icon="1" preview="1">
+        <row name="result" id="kfklaihk_contributionid">
+          <cell name="kfklaihk_contributiontitle" width="300" />
+          <cell name="kfklaihk_staffmember" width="100" />
+          <cell name="kfklaihk_contributiontype" width="150" />
+          <cell name="kfklaihk_contributiondate" width="150" />
+          <cell name="kfklaihk_description" width="150" />
+          <cell name="kfklaihk_status" width="150" />
+          <cell name="kfklaihk_pointsawarded" width="150" />
+          <cell name="kfklaihk_approvalrejectioncomments" width="150" />
+          <cell name="kfklaihk_approver" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="kfklaihk_contribution">
+          <attribute name="kfklaihk_contributiontitle" />
+          <attribute name="kfklaihk_contributiontype" />
+          <attribute name="kfklaihk_contributiondate" />
+          <attribute name="kfklaihk_description" />
+          <attribute name="kfklaihk_status" />
+          <attribute name="kfklaihk_pointsawarded" />
+          <attribute name="kfklaihk_approvalrejectioncomments" />
+          <attribute name="kfklaihk_approver" />
+          <attribute name="kfklaihk_staffmember" />
+          <order attribute="kfklaihk_contributiontitle" descending="false" />
+          <filter type="and">
+            <condition attribute="kfklaihk_staffmember" operator="eq-userid" />
+          </filter>
+          <attribute name="kfklaihk_contributionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Contributions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

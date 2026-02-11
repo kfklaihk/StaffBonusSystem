@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d16506e9-515b-4812-affe-808277be078d}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{ba1be2c1-724e-4ef2-a46e-97e43ab3b9bd}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{47d7cb72-ee3d-4918-b1ef-106b62f145a7}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ab17759c-2d34-4587-b96b-f9ef9bc1e657}">
+                        <labels>
+                          <label description="Contribution Title" languagecode="1033" />
+                        </labels>
+                        <control id="kfklaihk_contributiontitle" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="kfklaihk_contributiontitle" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d9cb23c9-85bb-480c-92ba-a9351c2b8e18}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{580c94cf-d204-49e9-bcce-59f85d56a67c}">
+                        <labels>
+                          <label description="Staff Member" languagecode="1033" />
+                        </labels>
+                        <control id="kfklaihk_staffmember" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="kfklaihk_staffmember" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fead71e7-f876-4243-976f-1e7e750f69d2}">
+                        <labels>
+                          <label description="Contribution Type" languagecode="1033" />
+                        </labels>
+                        <control id="kfklaihk_contributiontype" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="kfklaihk_contributiontype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5d65dce0-0d54-4424-96d7-489b2cb1c3fc}">
+                        <labels>
+                          <label description="Contribution Date" languagecode="1033" />
+                        </labels>
+                        <control id="kfklaihk_contributiondate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="kfklaihk_contributiondate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7683114b-8b6b-4985-9aac-fa9694175042}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="kfklaihk_description" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="kfklaihk_description" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dbb58dae-cd0e-4a79-94f9-944180ac4104}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="kfklaihk_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="kfklaihk_status" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca8236e9-d38a-4bfc-8082-b5d52b5fb831}">
+                        <labels>
+                          <label description="Points Awarded" languagecode="1033" />
+                        </labels>
+                        <control id="kfklaihk_pointsawarded" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="kfklaihk_pointsawarded" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{33c15a33-e2df-4987-9c8a-74511dcc6c54}">
+                        <labels>
+                          <label description="Approval/Rejection Comments" languagecode="1033" />
+                        </labels>
+                        <control id="kfklaihk_approvalrejectioncomments" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="kfklaihk_approvalrejectioncomments" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{61f4a389-b68e-4dd1-9078-8956ba937369}">
+                        <labels>
+                          <label description="Approver" languagecode="1033" />
+                        </labels>
+                        <control id="kfklaihk_approver" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="kfklaihk_approver" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

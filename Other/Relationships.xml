@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_kfklaihk_contribution" />
+  <EntityRelationship Name="business_unit_kfklaihk_contributiontype" />
+  <EntityRelationship Name="business_unit_kfklaihk_staffprofile" />
+  <EntityRelationship Name="kfklaihk_contribution_Approver_systemuser" />
+  <EntityRelationship Name="kfklaihk_contribution_ContributionType_kfklaihk_contributiontype" />
+  <EntityRelationship Name="kfklaihk_contribution_StaffMember_systemuser" />
+  <EntityRelationship Name="kfklaihk_staffprofile_Manager_systemuser" />
+  <EntityRelationship Name="kfklaihk_staffprofile_StaffMember_systemuser" />
+  <EntityRelationship Name="lk_kfklaihk_contribution_createdby" />
+  <EntityRelationship Name="lk_kfklaihk_contribution_modifiedby" />
+  <EntityRelationship Name="lk_kfklaihk_contributiontype_createdby" />
+  <EntityRelationship Name="lk_kfklaihk_contributiontype_modifiedby" />
+  <EntityRelationship Name="lk_kfklaihk_staffprofile_createdby" />
+  <EntityRelationship Name="lk_kfklaihk_staffprofile_modifiedby" />
+  <EntityRelationship Name="owner_kfklaihk_contribution" />
+  <EntityRelationship Name="owner_kfklaihk_contributiontype" />
+  <EntityRelationship Name="owner_kfklaihk_staffprofile" />
+  <EntityRelationship Name="team_kfklaihk_contribution" />
+  <EntityRelationship Name="team_kfklaihk_contributiontype" />
+  <EntityRelationship Name="team_kfklaihk_staffprofile" />
+  <EntityRelationship Name="user_kfklaihk_contribution" />
+  <EntityRelationship Name="user_kfklaihk_contributiontype" />
+  <EntityRelationship Name="user_kfklaihk_staffprofile" />
+</EntityRelationships>
